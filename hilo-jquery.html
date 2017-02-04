@@ -1,0 +1,42 @@
+
+<!--
+// Hi/Lo Game
+//
+// Remember the Hi/Lo Game? Let's create an interactive webpage that allows a user to play.
+//
+// View
+//
+// Create an input tag for the user's guess.
+// Create a button tag to send the user's guess to the Javascript code.
+// Create a p tag for the game's feedback (whether the guess is too high/too low/the user has won or lost).
+// Controller
+//
+// Create a click listener that takes in the user's guess from the input tag and displays it in an alert.
+// Reuse the code from your previous Hi/Lo Game challenge to to match the user's guess to the correct set number.
+// Make the p tag red when there are only two guesses left. Use the jQuery .addClass(..) function.
+// Make the p tag contain the results of all the user's guesses. Use the jQuery functions .append(..) or .prepend(..) and .text(..).
+// Hide the button and input tags when the game is over, using the jQuery .show(..) and .hide(..) functions.
+-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="hilo-jquery.js"></script>
+    <link rel="stylesheet" href="hilo-jquery.css" media="screen" title="no title">
+    <title>HiLo Game</title>
+  </head>
+  <body>
+    <h1>HiLo Game</h1>
+    <h2>Guess a Number between 1 and 100 (inclusive)</h2>
+    <input type="text" name="name" placeholder="Enter guess here">
+    <button type="button" name="button">SUBMIT</button>
+    <p></p>
+    <h3></h3>
+  </body>
+</html>
